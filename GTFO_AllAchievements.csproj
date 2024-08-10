@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>$(SolutionName)</AssemblyName>
+    <RootNamespace>$(SolutionName)</RootNamespace>
+    <BepInEx>D:\Program Files\Steam\steamapps\common\GTFO\BepInEx</BepInEx>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="$(BepInEx)\core\0Harmony.dll" Private="false" />
+    <Reference Include="$(BepInEx)\core\BepInEx.Core.dll" Private="false" />
+    <Reference Include="$(BepInEx)\core\BepInEx.Unity.IL2CPP.dll" Private="false" />
+    <Reference Include="$(BepInEx)\core\Il2CppInterop.Common.dll" Private="false" />
+    <Reference Include="$(BepInEx)\core\Il2CppInterop.Runtime.dll" Private="false" />
+    <Reference Include="$(BepInEx)\interop\*.dll" Private="false" />
+    <Reference Remove="$(BepInEx)\interop\netstandard.dll" />
+  </ItemGroup>
+
+</Project>

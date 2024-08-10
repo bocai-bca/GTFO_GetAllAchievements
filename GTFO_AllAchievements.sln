@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTFO_AllAchievements", "GTFO_AllAchievements.csproj", "{EDED23E4-E3CB-4D97-8AD7-942D5C522E1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDED23E4-E3CB-4D97-8AD7-942D5C522E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDED23E4-E3CB-4D97-8AD7-942D5C522E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDED23E4-E3CB-4D97-8AD7-942D5C522E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDED23E4-E3CB-4D97-8AD7-942D5C522E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2604094A-273D-4296-B4B8-A36D96C04CBB}
+	EndGlobalSection
+EndGlobal
